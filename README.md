@@ -6,8 +6,10 @@ The thing who makes it more difficult that we are not allowed to use the generic
 
 This is a very good problem to master the array and require a lot of creative thinking and stamina.
 
-VectorOfVectors will have the following interface at least (i.e. you might need to add other functions):
+VectorOfVectors will have the following interface at least (i.e. you might need to add other functions): 
+
 public:
+
 bool insert(int value, int vectorNo); //inserts the value in vector Number mentioned
 
 bool remove(int vectorNo, int index); //removes the value from the index of the vector number mentioned
